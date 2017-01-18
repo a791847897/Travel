@@ -1,0 +1,76 @@
+
+.carousel {
+    height: 500px;
+    background-color: black;
+    overflow: hidden;
+}
+
+.content {
+
+    position: relative;
+    height: 500px;
+}
+
+.leftbtn {
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100px;
+    padding: 200px 0;
+}
+
+.leftbtn:hover {
+    cursor: pointer;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+    opacity: 0.5;
+}
+
+.rightbtn:hover {
+    cursor: pointer;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+    opacity: 0.5;
+}
+
+.fa-angle-right {
+    color: #cccccc;
+}
+
+.fa-angle-left {
+    color: #cccccc;
+}
+
+i {
+    display: block;
+    width: 200px;
+    height: 80px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.rightbtn {
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    padding: 200px 0;
+}
+
+.content img {
+    top: 0;
+    left: 0;
+    height: 500px;
+    background-size: cover;
+}
+
+.content li {
+    height: 500px;
+    position: absolute;
+    list-style: none;
+    float: left;
+}
+
+

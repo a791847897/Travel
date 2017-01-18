@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery.min.js"></script>
+    <script>
+
+        $(function () {
+            var a = $('#name').text("asdasd");
+            console.log(a)
+            var thisURL = document.URL;
+            var getval = thisURL.split('?')[1];
+            var showval = getval.split("=")[1];
+
+            function showvalf() {
+                alert(showval);
+                document.getElementById('name').text = showval;
+
+            }
+
+            showvalf();
+        })
+
+    </script>
+
+</head>
+<body>
+<input type="text" id="ee"/>
+<button id="btn">adasd</button>
+<a id="name">aasdsada</a>
+</body>
+</html>

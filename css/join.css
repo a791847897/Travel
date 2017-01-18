@@ -1,0 +1,87 @@
+
+body {
+
+    background: url("../images/login.jpg");
+}
+
+.join_box {
+    border-radius: 8px;
+    padding: 0;
+    width: 1170px;
+    background-color: #fff;
+    margin: 100PX auto;
+    /*margin-top: 100px;*/
+    height: 500px;
+
+}
+
+.join_box h2 {
+    color: #fff;
+    border-radius: 8px 8px 0 0;
+    background: #DAB866;
+    line-height: 55px;
+    font-size: 26px;
+    text-indent: 24px;
+}
+
+.join_box h2 span {
+    color: #fff;
+    font-size: 20px;
+}
+
+.join_list {
+    width: 500px;
+    height: 330px;
+    margin: 20px 0 0 100px;
+
+}
+
+.list_name {
+    width: 100%;
+    height: 30px;
+    margin: 0 0 10px 0;
+    padding: 10px 0;
+
+}
+
+.item_p {
+    float: left;
+    width: 30%;
+    height: 30px;
+}
+
+.item_p p {
+    text-align: right;
+    font-size: 25px;
+    line-height: 25px;
+
+}
+
+input {
+    font-size: 30px;
+    line-height: 32px;
+    float: left;
+    border: 1px solid black;
+    height: 28px;
+    width: 50%;
+}
+
+#subbtn {
+    width: 250px;
+    height: 30px;
+    margin: 0 0 0 250px;
+    border-radius: 8px;
+    color: #fff;
+    background-color: #DAB866;
+
+}
+
+.join_footer {
+    margin-top: 200px;
+}
+
+#check {
+    height: 20px;
+    width: 20px;
+    color: #000000;
+}

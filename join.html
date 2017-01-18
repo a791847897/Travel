@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bmob-min.js"></script>
+    <script src="js/BmobInit.js"></script>
+    <script src="js/join.js"></script>
+    <link rel="stylesheet" href="css/join.css">
+    <script src="form-master/jquery.form.js"></script>
+</head>
+<body>
+<header>
+    <div class="container">
+        <a class="fadeInRight"><img src="images/logo.png"></a>
+        <div class="navbar">
+            <ul class="fadeInLeft">
+                <li><a href="index.html">首 页</a><span>HOME</span></li>
+                <li><a>俱乐部服务</a><span>Rave Club Service</span></li>
+                <li><a>私人定制</a><span>Yc Travel</span></li>
+                <li><a href="join.html">会员申请</a><span>Membership Application</span></li>
+                <li><a href="join.html">注册</a><span>Register</span></li>
+                <li><a>登录</a><span>Login</span></li>
+            </ul>
+        </div>
+        <div class="zhuan spin"><img src="images/zhuan.png"></div>
+    </div>
+</header>
+<div class="join_box">
+    <h2> 会员申请表 <span>APPLICATION FOR MEMBERSHIP</span></h2>
+    <form method="post" id="form1">
+        <div class="join_list">
+
+            <div class="list_name">
+                <div class="item_p"><p>申请人姓名：</p></div>
+                <input type="text" id="name" required oninvalid="setCustomValidity('请输入用户名')"
+                       oninput="setCustomValidity('')">
+
+            </div>
+            <div class="list_name">
+                <div class="item_p"><p>手机：</p></div>
+                <input type="tel" id="phone" required oninvalid="setCustomValidity('请输入手机')"
+                       oninput="setCustomValidity('')">
+
+            </div>
+            <div class="list_name">
+                <div class="item_p"><p>密码：</p>
+                </div>
+                <input type="password" id="password" required oninvalid="setCustomValidity('请输入密码')"
+                       oninput="setCustomValidity('')"><input id="check" type="checkbox" name="密码可见">密码可见
+
+            </div>
+            <div class="list_name">
+                <div class="item_p"><p>微信号：</p></div>
+                <input type="text" id="wechatnum">
+
+            </div>
+            <div class="list_name">
+                <div class="item_p"><p>电子邮箱：</p></div>
+                <input type="email" id="email"
+                       pattern="[^ @]*@[^ @]*" valu e="">
+
+            </div>
+
+        </div>
+        <input type="submit" id="subbtn">
+    </form>
+</div>
+<div class="footer join_footer">
+    Copyright©2016　聿琛高端定制旅游　版权所有　
+    <a href="http://www.miitbeian.gov.cn/publish/query/indexFirst.action;jsessionid=FkTTXdKpX27NtbKMM7hfJcJK13JS1JYvDvWLJZqnh8CX1BpJlJhx!871614666">粤ICP备123456789号</a>
+</div>
+
+</body>
+</html>

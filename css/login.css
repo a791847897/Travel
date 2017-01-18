@@ -1,0 +1,99 @@
+
+.bg {
+    background: url("../images/login.jpg");
+    background-size: cover;
+
+}
+
+.login_box {
+    margin: 200px auto;
+    text-align: center;
+    width: 400px;
+    height: 600px;
+
+}
+
+.login_logo {
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.login_name {
+    margin-bottom: 20px;
+    height: 48px;
+    width: 100%;
+    border-radius: 30px;
+    border: 1px solid #DAB866;
+
+}
+
+.login_name i {
+    margin: 8px 15px 5px 15px;
+    float: left;
+    width: 30px;
+    height: 30px;
+    background: url("../images/user.png");
+}
+
+.login_name input {
+    border: none;
+    font-size: 24px;
+    line-height: 44px;
+    color: #ffffff;
+    background-color: #3c312c;
+    opacity: 0.5;
+    height: 44px;
+    width: 300px;
+    float: left;
+}
+
+.login_pass {
+    margin-bottom: 20px;
+    height: 48px;
+    width: 100%;
+    border-radius: 30px;
+    border: 1px solid #DAB866;
+}
+
+.login_pass i {
+    margin: 8px 20px 15px 20px;
+    float: left;
+    width: 25px;
+    height: 27px;
+    background: url("../images/password.png");
+}
+
+.login_pass input {
+    border: none;
+    font-size: 24px;
+    line-height: 44px;
+    color: #ffffff;
+    background-color: #3c312c;
+    opacity: 0.5;
+    height: 44px;
+    width: 300px;
+    float: left;
+}
+
+.login_button {
+    cursor: pointer;
+    background-color: #DAB866;
+    color: #ffffff;
+    margin-bottom: 20px;
+    height: 48px;
+    width: 100%;
+    border-radius: 30px;
+    border: 1px solid #DAB866;
+}
+
+.login_button p {
+
+    margin: 10px auto;
+    width: 200px;
+    height: 20px;
+    font-size: 24px;
+    line-height: 24px;
+    color: #fff;
+    text-align: center;
+
+}

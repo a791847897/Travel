@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bmob-min.js"></script>
+    <script src="js/BmobInit.js"></script>
+    <script src="js/login.js"></script>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body class="bg">
+<div class="login_box">
+    <div class="login_logo">
+        <img src="images/logo.png">
+    </div>
+    <form id="form2" autocomplete="off">
+        <div class="login_name">
+            <i></i>
+            <input type="email" placeholder="请输入邮箱" autocomplete="off" required oninvalid="setCustomValidity('请输入用户名')"
+                   oninput="setCustomValidity('')" onkeyup="value=value.replace(/[\u4E00-\u9FA5]/g,'')"
+                   onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[\u4E00-\u9FA5]/g,''))">
+        </div>
+        <div class="login_pass">
+            <i></i>
+            <input type="password" placeholder="请输入密码" required oninvalid="setCustomValidity('请输入密码')"
+                   oninput="setCustomValidity('')" autocomplete="off">
+        </div>
+        <input class="login_button" type="submit" value="提交">
+
+    </form>
+</div>
+
+</body>
+</html>

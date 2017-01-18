@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery.min.js"></script>
+    <script>
+        var aa = function () {
+            console.log($('#name1').val());
+        }
+
+    </script>
+</head>
+<body>
+
+<form autocomplete="on">
+    First name:<input type="text" id="name1" name="fname" required oninvalid="setCustomValidity('不能为空')"
+                      oninput="setCustomValidity('')"><br>
+    Last name: <input type="text" name="lname"><br>
+    E-mail: <input type="email" name="email" autocomplete="off"><br>
+    <input type="submit" onclick="aa()">
+</form>
+
+</body>
+</html>
